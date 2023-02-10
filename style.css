@@ -1,0 +1,333 @@
+img{
+
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100%;
+
+}
+
+body{
+    background-image: url("lubo-minar-TrpdzVh2_pE-unsplash.jpg");
+}
+
+h1{
+    color: azure;
+}
+
+h2{
+
+    color: azure;
+}
+
+h3{
+
+    color: greenyellow
+}
+
+h4{
+
+    color: azure;
+}
+
+input{
+
+    color: azure;
+}
+
+label{
+    color: azure;
+}
+
+p{
+
+    color: azure;
+}
+
+i{
+    color: azure;
+    
+}
+
+
+.myNav {
+    justify-content: center;
+    display: block;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    background-color: rgb(41, 39, 39);
+    
+}
+
+/* Remove bullets, margin and padding */
+.myNav ul {
+    justify-content: center;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction:row;
+    padding-bottom: 0px;
+    border-bottom: 2px solid white;
+}
+
+.myNav li {
+    float: left;
+    /* Or you can use display: inline; */
+}
+
+/* Define the block styling for the links */
+.myNav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 16px;
+}
+
+.Education{
+
+    display: flex;
+    flex-direction: row;
+    color: azure;
+    font-weight:bold;
+    margin-bottom: 0px;
+
+}
+
+.edupara{
+
+
+    display: flex;
+    flex-direction: row;
+    color: azure;
+    align-items: center;
+    margin-top: 1px;
+
+
+}
+
+.credentials{
+
+    background-color: rgb(211, 63, 122);
+    display: inline;
+}
+
+.space{
+    border-bottom: 1px solid white;
+}
+
+.left{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100vw;
+  padding-left: 5px;
+  border-right: 0.5px solid white;
+}
+
+
+
+.outer {
+
+    
+
+
+    background-color: rgb(78, 72, 72);
+    justify-content: center;
+    height: 6%;
+    width: 500%;
+    border-radius: 20px;
+    margin-right: 5%;
+    text-align: center;
+    
+}
+
+.skill {
+    
+    background-color: rgb(150, 239, 144);
+    justify-content: center;
+    height: 55%;
+    width: 500%;
+    color: rgb(244, 244, 244);
+    padding: 2%;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+  
+
+}
+
+.html {
+    color: black;
+    width: 80%;
+}
+
+.Python {
+    color: black;
+    width: 90%;
+}
+
+.C  {
+    color: black;
+    width: 70%;
+}
+
+.Cplusplus {
+    color: black;
+    width: 70%;
+}
+
+.CSS  {
+    color: black;
+    width: 80%;
+}
+
+.Java  {
+    color: black;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.left_side{
+   
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right:10px ;
+    border-right: 1px solid white;
+
+    
+}
+
+
+.right_side{
+
+    padding-left:50px;
+}
+
+
+
+
+
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+
+ 
+
+
+@media only screen and (max-width: 948px){
+
+    .left_side{
+
+        
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        border-bottom: 1px solid white;
+        margin-bottom: 0px;
+        border-right: 0px;
+        padding-bottom: 0px;
+    
+        
+    }
+    
+    
+    .right_side{
+    
+        text-align: center;
+        
+    }
+    
+    
+    .text{
+        justify-content: center;
+        text-align: center;
+    
+    }
+    
+    .download{
+        justify-content: center;
+        text-align: center;
+        display: inline;
+        
+    }
+    
+    
+    
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0%;
+    }
+
+        
+    .Education{
+
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        color: azure;
+        font-weight:bold;
+        margin-bottom: 0px;
+
+    }
+
+    .edupara{
+
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        color: azure;
+        align-items: center;
+        margin-top: 1px;
+
+
+    }
+
+    .table{
+        border: 1px solid white;
+        justify-content: space-evenly;
+        text-align: left;
+       
+        
+    }
+    
+
+
+
+    .list{
+    
+        text-align: center;
+        
+    }
+
+    .outer {
+
+        background-color: rgb(78, 72, 72);
+        height: 5%;
+        width: 90%;
+        border-radius: 20px;
+        
+    }
+
+
+
+
+}
